@@ -14,3 +14,12 @@ if(!localStorage.getItem('nom')) {
 monBouton.onclick = function() {
   définirNomUtilisateur();
 }
+
+var Bouton = document.querySelector('img')
+function test() {
+	var test = 'Bonjour';
+	alert(test);
+}
+Bouton.onclick = function() {
+	test()
+}
