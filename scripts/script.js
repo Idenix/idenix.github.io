@@ -1,17 +1,15 @@
-var monTitre = document.querySelector('h1');
-monTitre.textContent = 'Hewew';
 var monBouton = document.querySelector('button');
 var monTitre = document.querySelector('h1');
 function définirNomUtilisateur() {
-  var monNom = prompt('Dis ton nom, pd.');
+  var monNom = prompt('Quel est ton pseudo ?');
   localStorage.setItem('nom', monNom);
-  monTitre.textContent = monNom + ', t un pd.';
+  monTitre.textContent = 'Bienvenue, ' + monNom;
 }
 if(!localStorage.getItem('nom')) {
   définirNomUtilisateur();
 } else {
   var nomEnregistré = localStorage.getItem('nom');
-  monTitre.textContent = nomEnregistré + ', t un pd.';
+  monTitre.textContent = 'Bienvenue, ' + nomEnregistré;
 }
 monBouton.onclick = function() {
   définirNomUtilisateur();
