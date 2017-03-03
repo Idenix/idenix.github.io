@@ -1,7 +1,3 @@
-html {
-	font-family: 'Open Sans', sans-serif;
-}
-
 h1 {
 	font-size: 60px;
 	text-align: center;
@@ -15,6 +11,9 @@ p, li {
 
 html {
 	background-color: #E50A5A;
+	font-family: 'Open Sans', sans-serif;
+	background-image: url(/images/realy.png);
+	background-attachment: fixed;
 }
 
 body {
@@ -34,12 +33,8 @@ img {
 	margin: 0 auto;
 }
 
-html {
-	background-image: url(/images/realy.png);
-	background-attachment: fixed;
-}
-
 h6 {
 	text-align: center;
 	vertical-align: text-bottom;
 }
+
