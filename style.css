@@ -13,15 +13,10 @@ p, li {
 	letter-spacing: 1px;
 }
 
-html {
-	background-color: #E50A5A;
-}
-
 body {
-	width: 600px;
 	margin: 0 auto;
-	background-color: #E50A5A;
-	padding: 0 20px 20px 20px;
+	background-color: #e0e0e0;
+	
 }
 
 h1 {
@@ -34,7 +29,54 @@ img {
 	margin: 0 auto;
 }
 
-html {
-	background-image: url(images/realy.png);
-	background-attachment: fixed;
+h2, h6, p {
+	text-align: center;
+}
+
+h2, h6, p, h1 {
+	padding: 0 20px 20px 20px;
+}
+
+iframe {
+	padding: 0 210px
+}
+
+button {
+	margin: 0 20px
+}
+
+
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4c4cbf;
+}
+
+a visited {
+	color :#ed8a21;
 }
