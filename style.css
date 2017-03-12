@@ -15,7 +15,7 @@ p, li {
 
 body {
 	margin: 0 auto;
-	background-color: #e0e0e0;
+	background: linear-gradient(135deg, #f5f6f6 0%,#dbdce2 21%,#b8bac6 49%,#dddfe3 80%,#f5f6f6 100%);
 	
 }
 
@@ -38,7 +38,7 @@ h2, h6, p, h1 {
 }
 
 iframe {
-	padding: 0 210px
+	padding: 0 16px;
 }
 
 button {
