@@ -20,8 +20,8 @@ p, li {
 
 body {
 	margin: 0 auto;
-	background: linear-gradient(135deg, #f5f6f6 0%,#dbdce2 21%,#b8bac6 49%,#dddfe3 80%,#f5f6f6 100%);
-	
+	/*background: linear-gradient(135deg, #f5f6f6 0%,#dbdce2 21%,#b8bac6 49%,#dddfe3 80%,#f5f6f6 100%);*/
+	background-color: #b8bac6;
 }
 
 h1 {
@@ -42,44 +42,49 @@ h2, h6, p, h1 {
 	padding: 0 20px 20px 20px;
 }
 
-iframe {
-	padding: 0 16px;
-	margin: 0 455px;
-}
 button {
 	margin: 0 20px
 }
 
-
-
-
-
+h3 {
+	letter-spacing: 20px;
+}
+							/*----------------------------------------*\
+												DISCORD					
+							\*----------------------------------------*/
+iframe {
+	padding: 0 20px;
+	/*margin: 0 455px;*/
+}
+							/*----------------------------------------*\
+												NAVBAR					
+							\*----------------------------------------*/
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
 }
 
 li {
-    float: left;
+	float: left;
 }
 
 li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
 }
 
 li a:hover:not(.active) {
-    background-color: #111;
+	background-color: #111;
 }
 
 .active {
-    background-color: #4c4cbf;
+	background-color: #4c4cbf;
 }
 
 a visited {
