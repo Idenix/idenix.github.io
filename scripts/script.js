@@ -1,7 +1,7 @@
 var monBouton = document.querySelector('button');
 var monTitre = document.querySelector('h1');
 function définirNomUtilisateur() {
-  var monNom = prompt('Quel est ton pseudo ?');
+  var monNom = prompt("C'est quoi ton pseudal ?");
   localStorage.setItem('nom', monNom);
   monTitre.textContent = 'Bienvenue, ' + monNom;
 }
