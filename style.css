@@ -94,3 +94,12 @@ li a:hover:not(.active) {
 a visited {
 	color :#ed8a21;
 }
+
+
+
+/* Header */
+
+header {
+	background-color: #4c4cbf
+
+}
