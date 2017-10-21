@@ -1,5 +1,8 @@
 html {
 	font-family: 'Open Sans', sans-serif;
+	background-image: url("../images/realy.png");
+	background-color: #FF4081;
+	background-attachment: fixed;
 }
 
 h1 {
@@ -18,10 +21,17 @@ p, li {
 	letter-spacing: 1px;
 }
 
+img.class {
+	height: 200;
+	width: 1000;
+}
+
 body {
 	margin: 0 auto;
 	/*background: linear-gradient(135deg, #f5f6f6 0%,#dbdce2 21%,#b8bac6 49%,#dddfe3 80%,#f5f6f6 100%);*/
-	background-color: #b8bac6;
+	background-color: #FF4081;
+	width: 60%;
+	padding: 0 20px 20px 20px;
 }
 
 h1 {
@@ -63,6 +73,11 @@ iframe {
 							/*----------------------------------------*\
 												NAVBAR					
 							\*----------------------------------------*/
+
+nav {
+	width: 100%;
+}
+
 ul {
 	list-style-type: none;
 	margin: 0;
