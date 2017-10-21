@@ -2,9 +2,6 @@
 
 <html>
   <head>
-    <script type="text/javascript">
-    function newPopup(url) { popupWindow = window.open( url,'popUpWindow','height=300,width=225,left=10,top=10,resizable=no,scrollbars=no,toolbar=no,menubar=no,location=no,directories=no,status=yes')}
-    </script>
   	<link href="../images/favicon.ico" rel="shortcut icon" type="image/ico" >
   	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link href="../styles/style.css" rel="stylesheet" type="text/css">
@@ -16,7 +13,7 @@
       <ul>
         <li><a href="index.html">Acceuil</a></li>
         <li><a href="../hyped-bot">HypedBot</a></li>
-        <li style="float:right"><a class="active" href="JavaScript:newPopup('http://cdn.ggradio.net/apps/web/popup/');">Radio</a></li>
+        <li style="float:right"><a class="active" href="index.html">Giveaway</a></li>
       </ul>
     </nav>
     <span style="color: #FF4081">.</span>
@@ -27,5 +24,12 @@
         <h2 style="font-size : 20px; color: #FF4081;">Ecchi is life :3</h2>
         <h6>Normalement ici y a les crédits et le copyright sauf que j'ai pas d'argent pour me procurer une license. Tout ce que je peut dire c'est que le site est hébergé par <a href="https://pages.github.com/">Github Pages</a>.</h6>
         <!--<script src="scripts/script.js"></script>-->
+        <script>
+          var pd = document.querySelector('a.active');
+
+          pd.onclick = function() {
+            alert('mdr ta cru jaller te donner des trucs pd va');
+          }
+        </script>
   </body>
 </html>
