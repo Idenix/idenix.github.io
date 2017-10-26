@@ -27,10 +27,22 @@
         <!--<script src="scripts/script.js"></script>-->
         <script>
           var pd = document.querySelector('a.active');
+          var con = 0
 
-          pd.onclick = function() {
-            alert('mdr ta cru jaller te donner des trucs pd va');
-          }
+            pd.onclick = function() {
+              if (con < 3) {
+                alert('mdr ta cru jaller te donner des trucs pd va');
+                con++;
+              } else if (con == 3) {
+                  var fdp = prompt("Mot de passe (caché sur le site)")
+                  if (fdp = "jpp58") {
+                    document.location.href="../lol.html"
+                  }
+              } else {
+                alert('mdr ta cru jaller te donner des trucs pd va');
+                con++;
+              }
+            }
         </script>
   </body>
 </html>
