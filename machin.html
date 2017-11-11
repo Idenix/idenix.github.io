@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>Clean and Modern.</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" integrity="sha384-OHBBOqpYHNsIqQy8hL1U+8OXf9hH6QRxi0+EODezv82DfnZoV7qoHAZDwMwEJvSw" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
+        <script src="https://use.fontawesome.com/2aa563124d.js"></script>
+        <link href="machinstyle.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    </head>
+    <body style="font-family: 'Roboto', sans-serif; text-align:center;">
+        <div class="front-head">
+            <h1 class="animated fadeInDown white-gradient" style="color:blueviolet; font-size: 100px; margin-top: 150px; margin-bottom: 15px;">Idenix.</h1>
+            <h2><b>Développeur web front-end indépendant.</b></h3>
+            <button style="margin-top: 225px" class="btn btn-primary pd"><i></i><b>Active la cloche</b></button>
+        </div>
+       <div class="front-2" style="margin: 20px;">
+            <h1>Portfolio</h1>
+            <button class="btn btn-info fdp">Afficher Image 1</button>
+            <img id="konar" src="hyped-bot/images/demo_bot.png" alt="Demonstration HypedBot" height="50%" width="50%">
+       </div>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>            
+        <script>
+            $("document").ready(function(){
+                $("#konar").hide();
+                $("div.front-2").hide();
+            })
+            var i=0;
+            $("button.pd").click(function(){
+                $(".pd").addClass("animated shake");
+                $("i").addClass("fa fa-check animated fadeIn");
+                $("div.front-2").show();
+            });
+
+            $("button.fdp").click(function(){
+                $("#konar").show();
+                $("button.fdp").hide();
+            });
+
+            $("#konar").click(function(){
+                $("#konar").hide();
+                $("button.fdp").show();
+            })
+        </script>
+    </body>
+</html>
