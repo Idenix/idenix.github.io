@@ -100,7 +100,7 @@ header {
     align-content: center;
     background-color: #094E94;
 	text-align: center;
-	height: 87%;
+	height: 100%;
 }
 
 /*.avatar {
@@ -150,6 +150,9 @@ a.invite {
 	color: black;
 	padding: 0 10px;
 	text-align: center;
+	border-width: 5px;
+	border-radius: 7px;
+	padding: 3px 15px 3px 15px;
 }
 
 a.invite:hover {
