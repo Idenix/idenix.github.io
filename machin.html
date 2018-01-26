@@ -18,13 +18,12 @@
         </div>
        <div class="front-2" style="margin: 20px;">
             <h1>Portfolio</h1>
-            <button class="btn btn-info fdp">Afficher Image 1</button>
-            <img id="konar" src="hyped-bot/images/demo_bot.png" alt="Demonstration HypedBot" height="50%" width="50%">
-       </div>
+            <img src="https://idenix.github.io/HypedBot/docs/images/demo_bot.png" alt="Demonstration HypedBot" height="500px" width="500px">
+            <img src="images/preview.png" alt="Page About de idenix.githubio" height="500px" width="500px">
+        </div>
         <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>            
         <script>
             $("document").ready(function(){
-                $("#konar").hide();
                 $("div.front-2").hide();
             })
             var i=0;
@@ -33,16 +32,6 @@
                 $("i").addClass("fa fa-check animated fadeIn");
                 $("div.front-2").show();
             });
-
-            $("button.fdp").click(function(){
-                $("#konar").show();
-                $("button.fdp").hide();
-            });
-
-            $("#konar").click(function(){
-                $("#konar").hide();
-                $("button.fdp").show();
-            })
         </script>
     </body>
 </html>

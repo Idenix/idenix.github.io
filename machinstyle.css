@@ -21,3 +21,7 @@ body {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d631f7', endColorstr='#4e75ed',GradientType=0 );
 }
 
+img{
+    padding: 25px;
+}
+
