@@ -3,9 +3,9 @@ div.front-head {
 }
 
 div.front-2 {
+    text-align:center;
     height: 100%;
     padding-bottom: 20px;
-    padding: 10px 25px 20px 25px;
     background-color: #d631f7;
     background: -moz-linear-gradient(top, #d631f7 0%, #4e75ed 100%);
     background: -webkit-linear-gradient(top, #d631f7 0%,#4e75ed 100%);
