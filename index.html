@@ -36,25 +36,55 @@
         <link href="machinstyle.css" rel="stylesheet">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     </head>
-    <body style="font-family: 'Roboto', sans-serif; text-align:center;">
+    <body style="sans-serif; text-align:center;">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light rounded">
+                      <a class="navbar-brand" href="#">Idenix</a>
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+              
+                      <div class="collapse navbar-collapse" id="navbarsExample09">
+                        <ul class="navbar-nav mr-auto">
+                          <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="/about">A propos</a>
+                          </li>
+                          <!--<li class="nav-item">
+                            <a class="nav-link disabled" href="#">Disabled</a>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown09" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdown09">
+                              <a class="dropdown-item" href="#">Action</a>
+                              <a class="dropdown-item" href="#">Another action</a>
+                              <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                          </li>-->
+                        </ul>
+                        <form class="form-inline my-2 my-md-0">
+                          <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+                        </form>
+                      </div>
+                    </nav>
         <div class="front-head">
-            <h1 class="animated fadeInDown white-gradient" style="color:blueviolet; font-size: 100px; margin-top: 150px; margin-bottom: 15px;">Idenix.</h1>
-            <h2><b>Développeur web front-end indépendant.</b></h3>
+            <h1 class="animated fadeInDown white-gradient" style="font-family: 'Roboto'; color:blueviolet; font-size: 100px; margin-top: 150px; margin-bottom: 15px;">Idenix.</h1>
+            <h2 style="font-family: 'Roboto'"><b>Développeur web front-end indépendant.</b></h3>
             <div class="container-fluid">
                 <div class="row justify-content-center">
-                    <div class="col-1">
+                    <div class="col-1 col-xs-1">
                         <a href="https://twitter.com/Id3nix" class="btn btn-primary">
                             <i class="fa fa-twitter"></i> Twitter
                         </a>
                     </div>
-                    <div class="col-1">
+                    <div class="col-1 col-xs-1">
                         <a href="https://www.youtube.com/channel/UCA15jin-YmL42Un6Vo9GBKQ" class="btn btn-danger">
                             <i class="fa fa-youtube-play"></i> YouTube
                         </a>
                     </div>
                 </div>
             </div>
-            <button style="margin-top: 210px" class="btn btn-primary pd"><i class="cloche"></i><b>Active la cloche</b></button>
         </div>
 
         
@@ -62,14 +92,5 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
         <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>            
-        <script>
-            $("button.pd").click(function(){
-                $(".pd").addClass("animated shake");
-                $("i.cloche").addClass("fa fa-check animated fadeIn");
-                $("div.front-2").show();
-            });
-
-            $('.carousel').carousel()
-        </script>
     </body>
 </html>

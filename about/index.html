@@ -1,50 +1,51 @@
 <!DOCTYPE html>
-
-<html>
-  <head>
-  	<link href="../images/favicon.ico" rel="shortcut icon" type="image/ico" >
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link href="../styles/style.css" rel="stylesheet" type="text/css">
-    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">-->
-    <meta charset="utf-8">
-    <title>Idenix</title>
-  </head>
-  <body>
-    <nav>
-      <ul>
-        <li><a href="../">Acceuil</a></li>
-        <li><a href="../HypedBot">HypedBot</a></li>
-        <li style="float:right"><a class="active" href="#">Giveaway</a></li>
-      </ul>
-    </nav>
-    <img class="entete" width="45%" height="45%" src="../images/entete.png" alt="En-tête" style="margin-top: 15px">
-      <h2 id="top">Qui suis-je ?</h2>
-      	<p>Wesh Wesh comme ils disent les jeun's ! Moi c'est Idenix, développeur web et JavaScript (un peu) tentant de faire tant que bien que mal des trucs drôles (c'est (vraiment(très(putain de (trop)))) rare) qui sont au final surtout très inutiles (un peu comme ce site, quoi). Je suis aussi un joueur de jeux vidéos très casual jouant à à peu près tout et possédant une grande ludothèque (Follow <a href="https://www.twitter.com/Id3nix">@Id3nix</a> pour ce placage  magnifiquement magnifique de mot inutilisé depuis 1990 et cette autopub de qualité qualitativement qualitative) de jeux crackés IGG-GAMES.</p>
-        <!--<button>Change le texte de merde en haut de la page</button>-->
-        <h2 style="font-size : 20px; color: #FF4081;">Ecchi is life.</h2>
-        <iframe src="https://discordapp.com/widget?id=352763528869838848&theme=dark" width="500" height="250" allowtransparency="true" frameborder="0"></iframe>
-        <h6>Normalement ici y a les crédits et le copyright sauf que j'ai pas d'argent pour me procurer une license. Tout ce que je peut dire c'est que le site est hébergé par <a href="https://pages.github.com/">Github Pages</a>.</h6>
-        <!--<script src="scripts/script.js"></script>-->
-        <script>
-          var pd = document.querySelector('a.active');
-          var con = 0
-
-            pd.onclick = function() {
-              if (con < 3) {
-                alert('mdr ta cru jaller te donner des trucs pd va');
-                con++;
-              } else if (con == 3) {
-                  var fdp = prompt("Mot de passe (caché sur le site)")
-                  if (fdp == "jpp58") {
-                    document.location.href="../lol/"
-                  }else {
-                    alert("mdr avou tu spam entrée xD")
-                  }
-              } else {
-                alert('mdr ta cru jaller te donner des trucs pd va');
-                con++;
-              }
-            }
-        </script>
-  </body>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=1920px, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
+        <script src="https://use.fontawesome.com/2aa563124d.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+        <link href="../images/favicon.ico" rel="shortcut icon" type="image/ico" >
+        <title>Idenix - About</title>
+    </head>
+    <body style="sans-serif; text-align:center;">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light rounded">
+                      <a class="navbar-brand" href="../">Idenix</a>
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+              
+                      <div class="collapse navbar-collapse" id="navbarsExample09">
+                        <ul class="navbar-nav mr-auto">
+                          <li class="nav-item active">
+                            <a class="nav-link" href="../">Home <span class="sr-only">(current)</span></a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">A propos</a>
+                          </li>
+                          <!--<li class="nav-item">
+                            <a class="nav-link disabled" href="#">Disabled</a>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown09" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdown09">
+                              <a class="dropdown-item" href="#">Action</a>
+                              <a class="dropdown-item" href="#">Another action</a>
+                              <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                          </li>-->
+                        </ul>
+                        <form class="form-inline my-2 my-md-0">
+                          <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+                        </form>
+                      </div>
+                    </nav>
+        <h1 style="color:blueviolet; font-family: 'Roboto'">A propos de moi</h1>
+        En construction...
+    </body>
 </html>
