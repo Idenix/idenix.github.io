@@ -89,36 +89,38 @@
                 </div>
                 <h5 style="padding-top: 10px">
                   <div class="btn-group">
-                  <a class="btn btn-primary" style="color: white"><i class="fab fa-discord"></i>
-                  Discord : <i id="p1">Idenix#5119</i> </a>
-                  
-                  <a class="btn btn-primary"  onclick="copyToClipboard('p1')">
-                    <i class="fas fa-clipboard"></i>
-                  </a></div>
+                    <a class="btn btn-primary" style="color: white">
+                      <i class="fab fa-discord"></i>
+                      Discord : <i id="p1">Idenix#5119</i> 
+                    </a>
+                    <a class="btn btn-primary"  onclick="copyToClipboard('p1')">
+                      <i class="fas fa-clipboard"></i>
+                    </a>
+                  </div>
                 </h5>
             </div>
         </div>
 
         <script>
-        function copyToClipboard(elementId) {
+          function copyToClipboard(elementId) {
 
-          // Create a "hidden" input
-          var aux = document.createElement("input");
+            // Create a "hidden" input
+            var aux = document.createElement("input");
 
-          // Assign it the value of the specified element
-          aux.setAttribute("value", document.getElementById(elementId).innerHTML);
+            // Assign it the value of the specified element
+            aux.setAttribute("value", document.getElementById(elementId).innerHTML);
 
-          // Append it to the body
-          document.body.appendChild(aux);
+            // Append it to the body
+            document.body.appendChild(aux);
 
-          // Highlight its content
-          aux.select();
+            // Highlight its content
+            aux.select();
 
-          // Copy the highlighted text
-          document.execCommand("copy");
+            // Copy the highlighted text
+            document.execCommand("copy");
 
-          // Remove it from the body
-          document.body.removeChild(aux);
+            // Remove it from the body
+            document.body.removeChild(aux);
 
         }
         </script>
