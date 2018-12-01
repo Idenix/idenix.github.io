@@ -111,11 +111,33 @@ a visited {
 	color :#ed8a21;
 }
 
-
-
 /* Header */
-
 header {
 	background-color: #4c4cbf
 
+}
+
+body{
+	 background: linear-gradient(148deg, #0da7ee, #6220e8);
+	background-size: 400% 400%;
+
+	-webkit-animation: bgGradient 4s ease infinite;
+	-moz-animation: bgGradient 4s ease infinite;
+	animation: bgGradient 4s ease infinite;
+
+	@-webkit-keyframes bgGradient {
+	    0%{background-position:19% 0%}
+    	50%{background-position:82% 100%}
+    	100%{background-position:19% 0%}
+	}
+	@-moz-keyframes bgGradient {
+    	0%{background-position:19% 0%}
+    	50%{background-position:82% 100%}
+    	100%{background-position:19% 0%}
+	}
+	@keyframes bgGradient {
+    	0%{background-position:19% 0%}
+    	50%{background-position:82% 100%}
+    	100%{background-position:19% 0%}
+}
 }

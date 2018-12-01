@@ -1,0 +1,40 @@
+body{
+	height: 100%;
+	margin: 0;
+	text-align: center;
+	background-color: rgb(205,75,25);
+	/*background-image: linear-gradient(rgb(205,75,25), rgb(215,180,0));*/
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+div{
+	margin: 0 auto;
+	width: 1000px;
+	height: 500px;
+	background-image:	linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)),
+						 url("../images/ElyamBG.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+a{
+	color: rgb(215,180,0);
+	font-size: 35px;
+	margin: 5px 0 2px 0;
+}
+
+a:hover{
+	padding-left: 5px;
+	padding-right: 5px;
+	background-color: rgb(205,75,25);
+}
+
+h1{
+	font-size: 100px;
+	padding-top:10px;
+}
+
+h6{
+	font-size: 8px
+}
