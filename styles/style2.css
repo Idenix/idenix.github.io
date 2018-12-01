@@ -2,9 +2,10 @@ body{
 	height: 100%;
 	margin: 0;
 	text-align: center;
+	background-image: url("../images/sprite.png");
 	background-color: rgb(205,75,25);
+	background-size: 195px auto;
 	/*background-image: linear-gradient(rgb(205,75,25), rgb(215,180,0));*/
-	background-repeat: no-repeat;
 	background-attachment: fixed;
 }
 
@@ -16,6 +17,7 @@ div{
 						 url("../images/ElyamBG.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
+	box-shadow: 0px 0px 10px 5px rgb(215,180,0);
 }
 
 a{
